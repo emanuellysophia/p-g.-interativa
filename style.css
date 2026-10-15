@@ -1,0 +1,43 @@
+body {
+    background-color: rgb(255, 255, 255);
+    color: black;
+    font-family: Arial, sans-serif;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    min-height: 100vh;
+    margin: 0;
+    transition: 0.3s;
+}
+button:hover {
+    padding: 10px 20px;
+    cursor: pointer;
+    border: solid 1px #010101;
+    border-radius: 10px;
+    background-color: #b6b5b5;
+    transition: 0.3s; 
+    color: white;
+}
+h1 {
+    Color: rgb(198, 0, 0);
+
+}
+
+
+body.dark-mode {
+    background-color: #35323e;
+    color: white;
+}
+
+body.dark-mode h1 {
+    color: red;
+}
+
+body.dark-mode button:hover {
+    background-color: #333;
+    color: white;
+    border: 1px solid #777;
+}
